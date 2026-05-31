@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Jeremy Haecker | Instructional Designer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Roboto', sans-serif;
+    background:#f8f9fc;
+    color:#333;
+    line-height:1.6;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:linear-gradient(135deg,#0F4C81,#1B6CA8);
+    color:white;
+    padding:40px;
+}
+
+.hero-content{
+    max-width:900px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.hero h2{
+    font-size:1.6rem;
+    font-weight:300;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:1.15rem;
+    max-width:750px;
+    margin:0 auto 40px;
+}
+
+.button-group{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:500;
+    transition:.3s;
+}
+
+.btn-primary{
+    background:white;
+    color:#0F4C81;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+}
+
+.btn-secondary:hover{
+    background:white;
+    color:#0F4C81;
+}
+
+.scroll-section{
+    padding:80px 30px;
+    text-align:center;
+    background:white;
+}
+
+.scroll-section h2{
+    margin-bottom:20px;
+    color:#0F4C81;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    max-width:1200px;
+    margin:50px auto;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.card h3{
+    color:#0F4C81;
+    margin-bottom:15px;
+}
+
+footer{
+    background:#0F4C81;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero h2{
+    font-size:1.2rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Jeremy Haecker</h1>
+
+<h2>Instructional Designer | eLearning Developer | Learning Experience Creator</h2>
+
+<p>
+Designing engaging, performance-driven learning experiences that transform
+knowledge into measurable results. Specializing in instructional design,
+eLearning development, LMS administration, and innovative learning solutions.
+</p>
+
+<div class="button-group">
+
+<a href="portfolio.html" class="btn btn-primary">
+View Portfolio
+</a>
+
+<a href="contact.html" class="btn btn-secondary">
+Contact Me
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="scroll-section">
+
+<h2>What I Bring to Learning</h2>
+
+<div class="skills">
+
+<div class="card">
+<h3>Instructional Design</h3>
+<p>
+Performance-focused learning solutions built using adult learning principles,
+ADDIE, and learner-centered design strategies.
+</p>
+</div>
+
+<div class="card">
+<h3>eLearning Development</h3>
+<p>
+Interactive learning experiences developed with Articulate Storyline,
+Rise, iSpring, HTML, CSS, and JavaScript.
+</p>
+</div>
+
+<div class="card">
+<h3>Learning Technology</h3>
+<p>
+LMS administration, analytics, accessibility, and technology integrations
+that enhance the learner experience.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Jeremy Haecker | Instructional Design Portfolio
+</p>
+
+</footer>
+
+</body>
+</html>
